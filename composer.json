@@ -1,0 +1,59 @@
+{
+    "name": "tomatophp/tomato-user-activities-module",
+    "description": "Advanced logger is a laravel package used to automatically log every request made to you laravel application. Each request is also identified by hash, which can be used in standard log to identify the request.",
+    "keywords": [
+        "php",
+        "laravel",
+        "logs",
+        "user logs",
+        "user activities",
+        "tomatophp",
+        "splade"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        },
+        {
+            "name": "Abdelmjid Saber",
+            "email": "AbdelmjidDev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TomatoUserActivities\\": "",
+            "Modules\\TomatoUserActivities\\App\\": "app/",
+            "Modules\\TomatoUserActivities\\Database\\Factories\\": "database/factories/",
+            "Modules\\TomatoUserActivities\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TomatoUserActivities\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-plugins": "^1.2",
+        "tomatophp/tomato-crm-module": "^1.0",
+        "tomatophp/console-helpers": "^1.1",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^10.0",
+        "illuminate/support": "^9.0|^10.0",
+        "illuminate/http": "^9.0|^10.0",
+        "monolog/monolog": "^2.9|^3.3",
+        "ext-json": "*",
+        "jenssegers/agent": "*"
+    }
+}

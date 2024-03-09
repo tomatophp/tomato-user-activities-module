@@ -1,0 +1,30 @@
+{
+    "name": "TomatoUserActivities",
+    "alias": "tomato-user-activities",
+    "description": {
+        "ar": "المسجل المتقدم تستخدم لتسجيل تلقائي لكل طلب يتم إرساله إلى تطبيق لارفيل الخاص بك. يتم تحديد كل طلب أيضًا بواسطة تجزئة (هاش)، والتي يمكن استخدامها في السجل القياسي لتحديد الطلب.",
+        "en": "Advanced logger is a laravel package used to automatically log every request made to you laravel application. Each request is also identified by hash, which can be used in standard log to identify the request.",
+        "gr": "Advanced logger is a laravel package used to automatically log every request made to you laravel application. Each request is also identified by hash, which can be used in standard log to identify the request.",
+        "sp": "Advanced logger is a laravel package used to automatically log every request made to you laravel application. Each request is also identified by hash, which can be used in standard log to identify the request."
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoUserActivities\\App\\Providers\\TomatoUserActivitiesServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato User Activities",
+        "en": "Tomato User Activities",
+        "gr": "Tomato User Activities",
+        "sp": "Tomato User Activities"
+    },
+    "color": "#A463BF",
+    "icon": "bx bxs-user-detail",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-user-activities-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-user-activities",
+    "required": ["TomatoCrm"]
+}
