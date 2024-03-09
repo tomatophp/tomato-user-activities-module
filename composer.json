@@ -1,5 +1,6 @@
 {
     "name": "tomatophp/tomato-user-activities-module",
+    "type": "laravel-module",
     "description": "Advanced logger is a laravel package used to automatically log every request made to you laravel application. Each request is also identified by hash, which can be used in standard log to identify the request.",
     "keywords": [
         "php",
