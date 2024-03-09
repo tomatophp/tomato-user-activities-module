@@ -1,3 +1,5 @@
+![Screenshot](https://github.com/tomatophp/tomato-user-activities-module/blob/master/art/screenshot.png)
+
 # Tomato User Activities
 
 Advanced logger is a laravel package used to automatically log every request made to you laravel application. Each request is also identified by hash, which can be used in standard log to identify the request.
@@ -5,7 +7,7 @@ Advanced logger is a laravel package used to automatically log every request mad
 ## Installation
 
 ```bash
-composer require tomatophp/TomatoUserActivities
+composer require tomatophp/tomato-user-activities-module
 ```
 
 ## Support
@@ -14,7 +16,7 @@ you can join our discord server to get support [TomatoPHP](https://discord.gg/Xq
 
 ## Docs
 
-you can check docs of this package on [Docs](https://docs.tomatophp.com/plugins/tomato-themes)
+you can check docs of this package on [Docs](https://docs.tomatophp.com/plugins/tomato-user-activities)
 
 ## Changelog
 
